@@ -80,7 +80,7 @@ main{
 }
 section.cover{
 	height: 100vh;
-	background: url('../img/cover.jpg');
+	background: url('../img/cover2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -101,7 +101,6 @@ section.cover .container h1{
 	font-size: 62px;
 	line-height: 1;
 }
-
 section.about-us .container{
 	display: flex;
 	align-items: center;
@@ -143,3 +142,105 @@ section.about-us .container .container-item-txt p{
 section.about-us .container .container-item-txt a{
 	margin: 50px 0;
 }
+section.say-hello .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+section.say-hello .container h1{
+	color: var(--var-notwhite);
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+section.say-hello .container p{
+	color: var(--var-notwhite);
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+section.say-hello .container form{
+	display: flex;
+	align-items: center;
+}
+section.say-hello .container form input{
+	margin: 0;
+	padding: 15px 10px;
+	font-size: 20px;
+	background:none;
+	border: 0;
+	border-bottom: 1px solid #ff4d00;
+	color: var(--var-notwhite);
+}
+section.say-hello .container form input:focus{
+	outline: 0;
+}
+section.say-hello .container form button{
+	margin: 0;
+	padding: 12px 30px;
+	font-size: 20px;
+	border: 0;
+	background:#ff4d00;
+	color: var(--var-notwhite);
+	font-family: 'Poppins','Roboto',sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+footer{
+	padding: 100px 150px;
+	background-color: black;
+	background-image: url('../img/cave.jpg');
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+		color: var(--var-notwhite);
+}
+footer div{
+	width: 20%;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+footer div h2{
+	margin-bottom: 0;
+	font-size: 22px;
+}
+footer div.info{
+	width: 40%;
+
+}
+footer div.info p{
+	font-size: 14px;
+}
+footer div.quick-links{
+	width: 20%;
+}
+footer div ul{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding:0;
+}
+footer div ul li{
+	margin: 10px 0;
+	list-style-type: none;
+}
+footer div ul li a{
+	color: var(--var-notwhite);
+	text-decoration: none;
+	font-size: 14px;
+}
+footer div.copyright{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 20px;
+	width: 100%;
+	border-top: 1px solid var(--var-notwhite);
+	font-size: 14px;
+}
+footer div.copyright a{
+	text-decoration: none;
+	color: var(--var-notwhite);
+}
+
